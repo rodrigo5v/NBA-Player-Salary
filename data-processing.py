@@ -23,10 +23,10 @@ cmd.execute(f"""
         {cols[5]} integer,
         {cols[6]} integer,
         {cols[7]} character varying(255),
-        {cols[8]} character varying(255) ,
-        {cols[9]} character varying(255) ,
-        {cols[10]} character varying(255)  ,
-        {cols[11]} character varying(255)  ,
+        {cols[8]} integer,
+        {cols[9]} character varying(255),
+        {cols[10]} character varying(255),
+        {cols[11]} character varying(255),
         {cols[12]} integer 
     )
 """)
