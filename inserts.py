@@ -34,7 +34,7 @@ cmd.execute("""
     CREATE TABLE IF NOT EXISTS salary
     (
         season character varying(255),
-        amount integer,
+        amount money,
         id_player integer,
         FOREIGN KEY (id_player) REFERENCES players (id)
     )
